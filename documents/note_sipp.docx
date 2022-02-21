@@ -1,0 +1,26 @@
+Each file contains basic demographic and social characteristics data for each member of the household during each of the twelve interview of the 1996 panel. These include age, sex, race, ethnic origin, marital status, household relationship, education, and veteran status.
+
+Core questions, which are repeated at each interview, cover labor force activity, types and amounts of income, and participation in various cash and noncash benefit programs for each month of the four-month reference period. Data for employed persons include number of hours and weeks worked, earnings, and weeks without a job. Nonworkers are classified as unemployed or not in the labor force. In addition to income data associated with labor force activity, data include nearly 50 other types of income. 
+
+The file provides a set of monthly observations covering 12 waves of the 1996 Panel. The time span covered by the file varies depending on the ratation group to which the respondent belongs. Since the sample was divided into four approximately equal groups or rotations and one group, having a reference period of the four previous months, was interviewed each, the panel contains four different spans. 
+
+Data in SIPP are collected for particular weeks, all weeks, months, two or more months, and all months in the reference period. The person-month structure puts all data at the month level with the appropriate aggregation or disaggregation. 
+
+All income, with the exception of a few asset income amounts, are collected at the monthly level and all houeshold and family relationships are defined on a month-by-month basis. 
+
+Data on labor force paticipation is given at both the weekly and  monthly level. Changes in age and marital status occur from month-to-month. Income is recorded and recoded in monthly amounts.
+
+There are three basic kinds of person characteristics collected in the SIPP data;
+1) demographic characteristics such as age, marital status, and education;
+2) labor force and recipiency characteristics collected in section 1 of the questionnaire;
+3) job and income characteristics collected in sections 2 and 3 of the questionnaire.
+
+The first set of person characteristics at the montly level are the standard age, sex, and education variables. The RMESR variable defines monthly labor force participation in eight categories. Weekly labor force data are recoded into a similar employment status variable. 
+
+Data on jobs held follow the labor force participation data, and some editing is needed to adequately present these data. Currently SIPP carries space for two wage and salary jobs and two self-employment jobs for each individual. Each intervieweer is instructed about which job to list as job 1 and job 2; however, no edit is performed to make sure those rules are followed. In addition, the instructions give the interviewer a choice of listing first the job lasting the longest or the job earing the most money. 
+
+The job for which the person earned the most money during the 4 month period will be listed as job 1 and job 2 will be the job for which the person earned the second largest amount of money during the monthltpmsum1y periods. There will also be a new recode created indicating whether this person has job information for 0, 1, or 2 jobs this month. This same procedure will be used for persons with more than one reported self-employment job in a given month. Earnings for each job are presented separately. 
+Note
+1. Hours and earnings variables in the SIPP. The hours worked variable in the SIPP is collected once per wave and the earnings variable is a monthly variable. The number of weeks with a job is also a monthly variable. 
+2. EJOBCNTR is the variable that counts the number of jobs held during the reference period. Notice that this does not tell whether the person had multiple jobs on that month or not.
+3. EJOBCNTR == 1 means that the peson held one job over the reference period. Then we can assume that this person worked at the same job and worked at the reported weekly working hours. 
